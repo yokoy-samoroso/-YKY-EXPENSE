@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/YKY/EXPENSE</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Export &amp; started.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Export &amp; ready to be processed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Expense &amp; created.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Attachment &amp; ready for export.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>All expenses have been retrieved.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Export &amp; pending on expense system.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Attachment &amp; processed for expense &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Expense &amp; already processed, skipping</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error during application log processing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Checking export &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Retrieving expenses for Export &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Retrieving attachment &amp; for expense &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Expense &amp; has not been processed yet, skipping</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>No line selected</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/YKY/EXPENSE</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Select exactly one line</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

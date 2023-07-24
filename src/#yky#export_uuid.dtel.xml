@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/YKY/EXPORT_UUID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>SYSUUID_X16</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>17</SCRLEN3>
+    <DDTEXT>Export: Unique Identifier</DDTEXT>
+    <REPTEXT>Unique Identifier</REPTEXT>
+    <SCRTEXT_S>UUID</SCRTEXT_S>
+    <SCRTEXT_M>Unique Identifier</SCRTEXT_M>
+    <SCRTEXT_L>Unique Identifier</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
