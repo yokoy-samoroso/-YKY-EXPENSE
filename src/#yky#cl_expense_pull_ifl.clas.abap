@@ -711,8 +711,22 @@ CLASS /YKY/CL_EXPENSE_PULL_IFL IMPLEMENTATION.
           MESSAGE ID '/YKY/EXPENSE' TYPE 'E' NUMBER 012 WITH ls_attachment-expense_id.
         ENDIF.
 
+        DATA lv_string TYPE string.
+        lv_string = ls_attachment-filename.
+
+        cl_http_utility=>escape_url(
+  EXPORTING
+    unescaped = lv_string                 " Unencoded String
+*              options   =                  " Reserve for Future Enhancements
+  RECEIVING
+    escaped   = lv_string                 " URL-Encoded String
+).
+
+*        DATA(lv_uri) = '/' && gs_sys-organization_id && '/legal-entities/' && ls_export-company_id && '/export-tasks/' && ls_export-export_id && '/artefacts/' && ls_attachment-artifact_id
+*        && '/files?filename=' && ls_attachment-filename.
+
         DATA(lv_uri) = '/' && gs_sys-organization_id && '/legal-entities/' && ls_export-company_id && '/export-tasks/' && ls_export-export_id && '/artefacts/' && ls_attachment-artifact_id
-        && '/files?filename=' && ls_attachment-filename.
+        && '/files?filename=' && lv_string.
 
         DO.
 
@@ -728,6 +742,7 @@ CLASS /YKY/CL_EXPENSE_PULL_IFL IMPLEMENTATION.
           DATA(lv_response) = mo_client->if_rest_client~get_response_entity( ).
           DATA(lv_binary) = lv_response->get_binary_data( ).
           DATA(lv_media_type) = lv_response->get_header_field( iv_name = 'content-type').
+          DATA(lv_text) = lv_response->get_string_data( ).
 
           IF lv_return_code = 429.
             CONTINUE.

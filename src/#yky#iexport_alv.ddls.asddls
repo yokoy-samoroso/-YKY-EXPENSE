@@ -3,6 +3,7 @@
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Export CDS for Alv'
+@OData.publish: true
 
 define view /YKY/Export_ALV as select from /yky/exports
 {
